@@ -6,7 +6,7 @@ public class ListaAdjacente {
         tabela = new ListaLigada[q];
     }
 
-    public void inserir(int vo, int vd){//vo - Vertice Origem;  vd - Vartice Destino
+    public void inserir(int vo, int vd){//vo - Vertice Origem;  vd - Vertice Destino
 
         if(tabela[vo-1] == null){
             tabela[vo-1] = new ListaLigada();
@@ -20,7 +20,7 @@ public class ListaAdjacente {
         }else{
             tabela[vd-1].adicionaInicio(vo);
         }
-    }    
+    }
 	public String toString(){
 		String r = "";
 		for (int i=0;i<tabela.length;i++){

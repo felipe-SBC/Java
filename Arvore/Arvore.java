@@ -58,7 +58,7 @@ public class Arvore {
                 if(e<aux2.elemento) aux2.esquerda = novo;
                 if(e>aux2.elemento) aux2.direita = novo;
                 System.out.println("Elemento Incluído");
-            }   
+            }
         }
     }
     public void verifica(int e){
